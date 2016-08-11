@@ -1,5 +1,5 @@
 var express = require('express');
-var bodyParse = require('body-parser');
+var bodyParser = require('body-parser');
 var app = express();
 
 app.all('/*', function(req,res,next) {
@@ -29,3 +29,9 @@ var tutorials = [
     }
 ];
 
+app.get("/tutorials", function(req,res) {
+    console.log("GET from server");
+    res.send(tutorials);
+});
+
+app.listen(6069);
