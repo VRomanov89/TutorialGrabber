@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63454A061D5D760C006394E5 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63454A051D5D760C006394E5 /* VideoTableViewCell.m */; };
 		63F4F6591D5CFC5500F13F74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4F6581D5CFC5500F13F74 /* main.m */; };
 		63F4F65C1D5CFC5500F13F74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4F65B1D5CFC5500F13F74 /* AppDelegate.m */; };
 		63F4F65F1D5CFC5500F13F74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F4F65E1D5CFC5500F13F74 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63454A041D5D760C006394E5 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		63454A051D5D760C006394E5 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
 		63F4F6541D5CFC5500F13F74 /* TutorialGrabber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TutorialGrabber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F4F6581D5CFC5500F13F74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63F4F65A1D5CFC5500F13F74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63454A031D5D75F5006394E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63454A041D5D760C006394E5 /* VideoTableViewCell.h */,
+				63454A051D5D760C006394E5 /* VideoTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		63F4F64B1D5CFC5500F13F74 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		63F4F6561D5CFC5500F13F74 /* TutorialGrabber */ = {
 			isa = PBXGroup;
 			children = (
+				63454A031D5D75F5006394E5 /* View */,
 				63F4F66E1D5CFCB400F13F74 /* Services */,
 				63F4F65A1D5CFC5500F13F74 /* AppDelegate.h */,
 				63F4F65B1D5CFC5500F13F74 /* AppDelegate.m */,
@@ -162,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63454A061D5D760C006394E5 /* VideoTableViewCell.m in Sources */,
 				63F4F65F1D5CFC5500F13F74 /* ViewController.m in Sources */,
 				63F4F6711D5CFCD600F13F74 /* HTTPService.m in Sources */,
 				63F4F65C1D5CFC5500F13F74 /* AppDelegate.m in Sources */,
@@ -316,6 +330,7 @@
 				63F4F66D1D5CFC5500F13F74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
