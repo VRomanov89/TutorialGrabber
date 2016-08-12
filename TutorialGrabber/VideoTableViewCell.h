@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Video;
 
 @interface VideoTableViewCell : UITableViewCell
-
+- (void)updateUI:(nonnull Video*)video;
 @end

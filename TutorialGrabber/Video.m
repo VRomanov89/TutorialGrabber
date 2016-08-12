@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  Video.m
 //  TutorialGrabber
 //
 //  Created by Volodymyr Romanov on 8/11/16.
 //  Copyright © 2016 Volodymyr Romanov. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Video.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-
+@implementation Video
 
 @end
-
